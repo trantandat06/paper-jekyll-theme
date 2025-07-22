@@ -1,5 +1,5 @@
 ---
-layout: assets
+layout: posts
 title: "Let's upload the image!"
 description: "Test post for image uploading"
 date: 2025-07-22
