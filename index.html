@@ -1,25 +1,18 @@
----
-layout: page
-title: Home
----
-
-<section class="project-description">
-
+<div class="post">
   <h1>Some general features about our project</h1>
-  <p><strong>Description:</strong> General information</p>
-  <p><em>Date:</em> August 15, 2024</p>
+  <p><em>General information - 15/08/2024</em></p>
 
   <hr>
 
   <h2>Team description</h2>
   <h3>Teammates</h3>
-  <ul>
+  <ol>
     <li>Bùi Như Hưng</li>
     <li>Nguyễn Châu Phúc Huy</li>
     <li>Vương Nguyên Hân</li>
     <li>Trương Uyển Nhi</li>
     <li>Trần Tấn Đạt</li>
-  </ul>
+  </ol>
 
   <h3>Team moto!</h3>
   <p>blabla~</p>
@@ -30,51 +23,53 @@ title: Home
   <p><strong>Basic Sign Language Recognition using Teachable Machine</strong></p>
 
   <h3>Project goal</h3>
-  <p>Our goal is to enable computers to recognize basic sign language gestures using machine learning. This helps raise awareness about communication barriers for the hearing-impaired and can support daily interactions, especially in education and public services. The project promotes inclusivity and shows how beginner-friendly tools like Teachable Machine can be applied to real-world problems.</p>
+  <p>
+    Our goal is to enable computers to recognize basic sign language gestures using machine learning.
+    This helps raise awareness about communication barriers for the hearing-impaired and can support daily interactions,
+    especially in education and public services.
+    The project promotes inclusivity and shows how beginner-friendly tools like Teachable Machine can be applied to real-world problems.
+  </p>
 
-  <h3>Inside our project</h3>
+  <h3>Inside our project:</h3>
 
   <h4>Dataset and Class Configuration</h4>
-  <ul>
-    <li>Collected images of hand gestures for numbers from <strong>0 to 5</strong></li>
-    <li>Each class includes <strong>900–1000 images</strong></li>
-    <li>Diverse lighting, backgrounds, and hand positions were used</li>
-    <li>Class labels are clear and logically organized</li>
-  </ul>
+  <p>
+    We collected images of basic hand gestures representing numbers from <strong>0 to 5</strong>.  
+    Each class includes <strong>900–1000 images</strong>, ensuring variety in lighting, background, and hand positioning.  
+    Class labels are clearly distinguishable and logically organized to support effective training.
+  </p>
 
   <h4>Teachable Machine Setup</h4>
-  <ul>
-    <li>Used <strong>Image Project > Standard Image Model</strong> in Teachable Machine</li>
-    <li>Trained the model with our custom dataset</li>
-    <li>Data was split into training and testing sets for fair evaluation</li>
-  </ul>
+  <p>
+    We used <strong>Google’s Teachable Machine</strong> with the <strong>Image Project &gt; Standard Image Model</strong> option.  
+    The model was trained using our custom dataset, with a clear split between training and testing sets for balanced evaluation.
+  </p>
 
   <h4>Code and customization</h4>
-  <ul>
-    <li>Exported the model as TensorFlow code</li>
-    <li>Modified the Python script to support recognition via webcam or uploaded images</li>
-    <li>Customized the interface to show prediction accuracy and feedback</li>
-  </ul>
+  <p>
+    After training, we exported the model as TensorFlow code.
+    We modified the Python script to perform hand gesture recognition through either webcam input or static images.
+    We customized the interface to show prediction accuracy and visual feedback.
+  </p>
 
   <h4>Running the project</h4>
-  <ul>
-    <li>System recognizes gestures shown in front of a webcam in real-time</li>
-    <li>Alternatively, the user can upload an image for gesture recognition</li>
-    <li>Results are shown with prediction confidence percentage</li>
-  </ul>
+  <p>
+    When the user shows a gesture in front of the webcam, the system identifies and displays the result in real-time.
+    Alternatively, the user can upload an image, and the system will perform gesture recognition on the uploaded image as well.
+    The results are displayed through a feedback interface along with the prediction confidence percentage.
+  </p>
 
   <h3>Our future plan for this project</h3>
   <ul>
-    <li>Expand gestures to include full alphabet and common phrases</li>
-    <li>Add voice output for real-time conversation support</li>
-    <li>Make a mobile version with TensorFlow Lite</li>
-    <li>Improve the dataset with more people and environments</li>
-    <li>Build a tool that truly helps the hearing-impaired connect better</li>
+    <li>Increase the number of gestures to include full alphabet and daily phrases.</li>
+    <li>Add voice output to make the tool usable in real-time conversation.</li>
+    <li>Build a mobile-friendly version using TensorFlow Lite.</li>
+    <li>Improve the model by collecting more diverse datasets with different people and backgrounds.</li>
+    <li>Create a tool that not only recognizes signs but also actively helps people with hearing difficulties engage with others more easily.</li>
   </ul>
 
-  <h3>Code example</h3>
-  <pre><code>print("hello world")</code></pre>
+  <h3>Code explanation</h3>
+  <pre><code class="language-python">print("hello world")</code></pre>
 
-  <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/7/24/1248436779217/SpongeBob-SquarePants-10t-001.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none" alt="spongebob">
-
-</section>
+  <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/7/24/1248436779217/SpongeBob-SquarePants-10t-001.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none" alt="spongebob" width="300">
+</div>
