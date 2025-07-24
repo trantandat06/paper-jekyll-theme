@@ -13,7 +13,8 @@ layout: page
     {% endfor %}
   </ul>
   <div class="c-article__main">
-    {{ content }}
+    {{ <h1>{{ page.title }}</h1>
+<p><strong>Ngày đăng:</strong> {{ page.date | date: "%d/%m/%Y" }}</p> }}
   </div>
   <!-- Previous / Next Buttons -->
   <div class="pagenav">
